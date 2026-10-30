@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+
+# 学習の生出力（大きい・再生成できる）。集計 CSV・JSON・manifest は残す
+# 予測 CSV（1ファイル最大 98 MB。GitHub の 100 MB 制限に当たる）
+result/**/pred_csv_*/
+# 学習済み重み
+*.pth
+result/**/learning_saver/
+# 学習曲線など、run ごとの図（論文の図は result/final/paper_figures/ に別に置いてある）
+result/picture/
+result/param_matched/**/picture/
+result/film_variants/**/picture/
+# 整理前の動作確認・旧実験の予測 CSV（論文の値ではない）
+result/result_csv/*_unified.csv
+# スライドの画像化の出力は残す（目視確認の記録）。pptx の一時ファイルは除く
+~$*.pptx
+
+# 外部リポジトリ（clone して使う。commit は報告書に記録）
+external/
+# 動作確認の出力
+result/*_smoke/
+
+# 公開データの取得先（data_preparation/sources.py で取得。再配布せず各自取得する）
+data/raw/

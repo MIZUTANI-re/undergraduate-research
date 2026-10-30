@@ -1,0 +1,61 @@
+seed,season,rmse,mape,variant,variant_label,FiLM,HQ,Residual,source_file
+42,all,14.510832324878615,3.15450131893158,full_bifilm,Full HybridHQ,Yes,Yes,Yes,<project_root>\result_csv\HybridHQ_multiseed_each_run.csv
+123,all,14.735261957165507,3.2026637345552444,full_bifilm,Full HybridHQ,Yes,Yes,Yes,<project_root>\result_csv\HybridHQ_multiseed_each_run.csv
+2026,all,14.726315896476365,3.2205000519752502,full_bifilm,Full HybridHQ,Yes,Yes,Yes,<project_root>\result_csv\HybridHQ_multiseed_each_run.csv
+42,all,14.7542589149008,3.204764425754547,simple_concat,No FiLM (Simple Concatenation),No,Yes,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\simple_concat\summaries\simple_concat_multiseed_each_run.csv
+123,all,14.884578409833331,3.2290134578943253,simple_concat,No FiLM (Simple Concatenation),No,Yes,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\simple_concat\summaries\simple_concat_multiseed_each_run.csv
+2026,all,14.879096997661527,3.2296985387802124,simple_concat,No FiLM (Simple Concatenation),No,Yes,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\simple_concat\summaries\simple_concat_multiseed_each_run.csv
+42,all,14.822060119515216,3.250928223133087,no_hq,No Horizon Queries,Yes,No,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_hq\summaries\no_hq_multiseed_each_run.csv
+123,all,14.892592853476325,3.359759598970413,no_hq,No Horizon Queries,Yes,No,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_hq\summaries\no_hq_multiseed_each_run.csv
+2026,all,14.961535664445565,3.3635862171649933,no_hq,No Horizon Queries,Yes,No,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_hq\summaries\no_hq_multiseed_each_run.csv
+42,all,15.062636758650422,3.271828964352608,no_residual,No Linear Residual,Yes,Yes,No,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_residual\summaries\no_residual_multiseed_each_run.csv
+123,all,15.17976691146238,3.282897174358368,no_residual,No Linear Residual,Yes,Yes,No,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_residual\summaries\no_residual_multiseed_each_run.csv
+2026,all,15.543986756684792,3.472784906625748,no_residual,No Linear Residual,Yes,Yes,No,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_residual\summaries\no_residual_multiseed_each_run.csv
+42,spring,9.760472468837838,2.759043872356415,full_bifilm,Full HybridHQ,Yes,Yes,Yes,<project_root>\result_csv\HybridHQ_multiseed_each_run.csv
+123,spring,10.026840809601683,2.7155138552188878,full_bifilm,Full HybridHQ,Yes,Yes,Yes,<project_root>\result_csv\HybridHQ_multiseed_each_run.csv
+2026,spring,10.2832263102184,2.8323115780949597,full_bifilm,Full HybridHQ,Yes,Yes,Yes,<project_root>\result_csv\HybridHQ_multiseed_each_run.csv
+42,spring,9.7504929637998,2.8793195262551308,simple_concat,No FiLM (Simple Concatenation),No,Yes,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\simple_concat\summaries\simple_concat_multiseed_each_run.csv
+123,spring,9.04124958347914,2.554379403591156,simple_concat,No FiLM (Simple Concatenation),No,Yes,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\simple_concat\summaries\simple_concat_multiseed_each_run.csv
+2026,spring,9.744558527631588,2.720111794769764,simple_concat,No FiLM (Simple Concatenation),No,Yes,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\simple_concat\summaries\simple_concat_multiseed_each_run.csv
+42,spring,10.579011370037506,2.986615337431431,no_hq,No Horizon Queries,Yes,No,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_hq\summaries\no_hq_multiseed_each_run.csv
+123,spring,9.924608998319846,2.878495678305626,no_hq,No Horizon Queries,Yes,No,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_hq\summaries\no_hq_multiseed_each_run.csv
+2026,spring,9.49597524414435,2.82911229878664,no_hq,No Horizon Queries,Yes,No,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_hq\summaries\no_hq_multiseed_each_run.csv
+42,spring,9.36443252074288,2.686048485338688,no_residual,No Linear Residual,Yes,Yes,No,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_residual\summaries\no_residual_multiseed_each_run.csv
+123,spring,9.21645934531095,2.67113596200943,no_residual,No Linear Residual,Yes,Yes,No,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_residual\summaries\no_residual_multiseed_each_run.csv
+2026,spring,10.166165157101512,2.8237704187631607,no_residual,No Linear Residual,Yes,Yes,No,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_residual\summaries\no_residual_multiseed_each_run.csv
+42,summer,17.654460120836408,3.648502007126808,full_bifilm,Full HybridHQ,Yes,Yes,Yes,<project_root>\result_csv\HybridHQ_multiseed_each_run.csv
+123,summer,17.390737308711927,3.5756010562181477,full_bifilm,Full HybridHQ,Yes,Yes,Yes,<project_root>\result_csv\HybridHQ_multiseed_each_run.csv
+2026,summer,17.22330964186417,3.6083202809095374,full_bifilm,Full HybridHQ,Yes,Yes,Yes,<project_root>\result_csv\HybridHQ_multiseed_each_run.csv
+42,summer,17.602842864273285,3.47512811422348,simple_concat,No FiLM (Simple Concatenation),No,Yes,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\simple_concat\summaries\simple_concat_multiseed_each_run.csv
+123,summer,18.01623904661474,3.644648566842079,simple_concat,No FiLM (Simple Concatenation),No,Yes,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\simple_concat\summaries\simple_concat_multiseed_each_run.csv
+2026,summer,17.050916827210127,3.452017903327942,simple_concat,No FiLM (Simple Concatenation),No,Yes,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\simple_concat\summaries\simple_concat_multiseed_each_run.csv
+42,summer,18.516508417743747,3.8719892501831055,no_hq,No Horizon Queries,Yes,No,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_hq\summaries\no_hq_multiseed_each_run.csv
+123,summer,19.335658141921364,4.232507571578026,no_hq,No Horizon Queries,Yes,No,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_hq\summaries\no_hq_multiseed_each_run.csv
+2026,summer,19.19733229223977,4.171891883015633,no_hq,No Horizon Queries,Yes,No,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_hq\summaries\no_hq_multiseed_each_run.csv
+42,summer,18.964514270438663,3.750955685973168,no_residual,No Linear Residual,Yes,Yes,No,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_residual\summaries\no_residual_multiseed_each_run.csv
+123,summer,18.313253237495108,3.693295270204544,no_residual,No Linear Residual,Yes,Yes,No,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_residual\summaries\no_residual_multiseed_each_run.csv
+2026,summer,17.573778108362273,3.6133866757154474,no_residual,No Linear Residual,Yes,Yes,No,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_residual\summaries\no_residual_multiseed_each_run.csv
+42,autumn,12.049261072066308,3.104144893586636,full_bifilm,Full HybridHQ,Yes,Yes,Yes,<project_root>\result_csv\HybridHQ_multiseed_each_run.csv
+123,autumn,12.009572343795568,3.148505836725235,full_bifilm,Full HybridHQ,Yes,Yes,Yes,<project_root>\result_csv\HybridHQ_multiseed_each_run.csv
+2026,autumn,12.40953839054484,3.0929140746593475,full_bifilm,Full HybridHQ,Yes,Yes,Yes,<project_root>\result_csv\HybridHQ_multiseed_each_run.csv
+42,autumn,11.648279650800037,2.968820743262768,simple_concat,No FiLM (Simple Concatenation),No,Yes,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\simple_concat\summaries\simple_concat_multiseed_each_run.csv
+123,autumn,11.618028088284012,2.9849475249648094,simple_concat,No FiLM (Simple Concatenation),No,Yes,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\simple_concat\summaries\simple_concat_multiseed_each_run.csv
+2026,autumn,11.787419896748636,3.008449450135231,simple_concat,No FiLM (Simple Concatenation),No,Yes,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\simple_concat\summaries\simple_concat_multiseed_each_run.csv
+42,autumn,12.987741412653438,3.521288558840752,no_hq,No Horizon Queries,Yes,No,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_hq\summaries\no_hq_multiseed_each_run.csv
+123,autumn,13.105140411311712,3.4894052892923355,no_hq,No Horizon Queries,Yes,No,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_hq\summaries\no_hq_multiseed_each_run.csv
+2026,autumn,13.765591191608596,3.8405120372772217,no_hq,No Horizon Queries,Yes,No,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_hq\summaries\no_hq_multiseed_each_run.csv
+42,autumn,12.271729795462884,3.098001517355442,no_residual,No Linear Residual,Yes,Yes,No,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_residual\summaries\no_residual_multiseed_each_run.csv
+123,autumn,12.137647187492592,3.145536035299301,no_residual,No Linear Residual,Yes,Yes,No,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_residual\summaries\no_residual_multiseed_each_run.csv
+2026,autumn,12.481933966221316,3.176600486040116,no_residual,No Linear Residual,Yes,Yes,No,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_residual\summaries\no_residual_multiseed_each_run.csv
+42,winter,18.262983328541747,4.316055402159691,full_bifilm,Full HybridHQ,Yes,Yes,Yes,<project_root>\result_csv\HybridHQ_multiseed_each_run.csv
+123,winter,17.488240678001855,4.072747752070427,full_bifilm,Full HybridHQ,Yes,Yes,Yes,<project_root>\result_csv\HybridHQ_multiseed_each_run.csv
+2026,winter,17.893611582048457,4.316852241754532,full_bifilm,Full HybridHQ,Yes,Yes,Yes,<project_root>\result_csv\HybridHQ_multiseed_each_run.csv
+42,winter,17.525342629385133,4.103853926062584,simple_concat,No FiLM (Simple Concatenation),No,Yes,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\simple_concat\summaries\simple_concat_multiseed_each_run.csv
+123,winter,18.16094647331577,4.256055876612663,simple_concat,No FiLM (Simple Concatenation),No,Yes,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\simple_concat\summaries\simple_concat_multiseed_each_run.csv
+2026,winter,17.03945920990498,4.011763259768486,simple_concat,No FiLM (Simple Concatenation),No,Yes,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\simple_concat\summaries\simple_concat_multiseed_each_run.csv
+42,winter,18.62395213206848,4.454091936349869,no_hq,No Horizon Queries,Yes,No,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_hq\summaries\no_hq_multiseed_each_run.csv
+123,winter,18.47085998152309,4.437953233718872,no_hq,No Horizon Queries,Yes,No,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_hq\summaries\no_hq_multiseed_each_run.csv
+2026,winter,19.014531250641983,4.649597406387329,no_hq,No Horizon Queries,Yes,No,Yes,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_hq\summaries\no_hq_multiseed_each_run.csv
+42,winter,17.656005425573778,4.123246669769287,no_residual,No Linear Residual,Yes,Yes,No,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_residual\summaries\no_residual_multiseed_each_run.csv
+123,winter,17.058195248808836,4.034104198217392,no_residual,No Linear Residual,Yes,Yes,No,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_residual\summaries\no_residual_multiseed_each_run.csv
+2026,winter,18.470615454118096,4.285706207156181,no_residual,No Linear Residual,Yes,Yes,No,<project_root>\result_csv\ablation_optuna_equal_budget_seed42\final\no_residual\summaries\no_residual_multiseed_each_run.csv

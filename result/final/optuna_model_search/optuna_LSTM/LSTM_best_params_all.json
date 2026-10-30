@@ -1,0 +1,10 @@
+{
+  "num_layers": 1,
+  "hidden_size": 256,
+  "dropout": 0.17102428513814125,
+  "batch_size": 128,
+  "learning_rate": 0.0002606206504481223,
+  "weight_decay": 1.905243494393306e-06,
+  "head_hidden": 128,
+  "optimizer_name": "Adam"
+}

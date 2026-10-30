@@ -1,0 +1,32 @@
+{
+  "variant": "full_bifilm",
+  "variant_label": "Full: HQ + bidirectional FiLM + linear residual",
+  "film_01": 1,
+  "hq_01": 1,
+  "residual_01": 1,
+  "tuning_dataset": "all",
+  "tuning_seed": 42,
+  "sampler_seed": 42,
+  "total_trial_budget": 30,
+  "max_epochs": 80,
+  "patience": 10,
+  "objective": "validation_mse_standardized",
+  "split": "strict_warm_80_10_10",
+  "seq_len": 72,
+  "horizon": 24,
+  "feature_policy": "past_demand+weather+calendar",
+  "test_used_for_hp_selection": false,
+  "best_value": 0.0546857549022849,
+  "best_trial_number": 6,
+  "best_params": {
+    "num_layers": 1,
+    "hidden_dim": 256,
+    "dropout": 0.03595961020010484,
+    "batch_size": 64,
+    "learning_rate": 0.00010903884523201111,
+    "weight_decay": 0.00032741215209888857,
+    "optimizer_name": "AdamW",
+    "d_model": 64,
+    "nhead": 8
+  }
+}

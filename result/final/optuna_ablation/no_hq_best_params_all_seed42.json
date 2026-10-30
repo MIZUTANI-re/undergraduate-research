@@ -1,0 +1,32 @@
+{
+  "variant": "no_hq",
+  "variant_label": "Ablation: no horizon queries + bidirectional FiLM + linear residual",
+  "film_01": 1,
+  "hq_01": 0,
+  "residual_01": 1,
+  "tuning_dataset": "all",
+  "tuning_seed": 42,
+  "sampler_seed": 42,
+  "total_trial_budget": 30,
+  "max_epochs": 80,
+  "patience": 10,
+  "objective": "validation_mse_standardized",
+  "split": "strict_warm_80_10_10",
+  "seq_len": 72,
+  "horizon": 24,
+  "feature_policy": "past_demand+weather+calendar",
+  "test_used_for_hp_selection": false,
+  "best_value": 0.05431687803255445,
+  "best_trial_number": 21,
+  "best_params": {
+    "num_layers": 3,
+    "hidden_dim": 256,
+    "dropout": 0.06783055102647025,
+    "batch_size": 64,
+    "learning_rate": 6.546999601704283e-05,
+    "weight_decay": 0.00010683742426675117,
+    "optimizer_name": "AdamW",
+    "d_model": 256,
+    "nhead": 8
+  }
+}

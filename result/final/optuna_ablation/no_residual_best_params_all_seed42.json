@@ -1,0 +1,32 @@
+{
+  "variant": "no_residual",
+  "variant_label": "Ablation: HQ + bidirectional FiLM + no linear residual",
+  "film_01": 1,
+  "hq_01": 1,
+  "residual_01": 0,
+  "tuning_dataset": "all",
+  "tuning_seed": 42,
+  "sampler_seed": 42,
+  "total_trial_budget": 30,
+  "max_epochs": 80,
+  "patience": 10,
+  "objective": "validation_mse_standardized",
+  "split": "strict_warm_80_10_10",
+  "seq_len": 72,
+  "horizon": 24,
+  "feature_policy": "past_demand+weather+calendar",
+  "test_used_for_hp_selection": false,
+  "best_value": 0.0546577005080604,
+  "best_trial_number": 3,
+  "best_params": {
+    "num_layers": 1,
+    "hidden_dim": 256,
+    "dropout": 0.0016566351370807197,
+    "batch_size": 32,
+    "learning_rate": 0.000348771262454593,
+    "weight_decay": 2.34543422772605e-07,
+    "optimizer_name": "Adam",
+    "d_model": 128,
+    "nhead": 4
+  }
+}

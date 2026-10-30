@@ -1,0 +1,23 @@
+{
+  "model": "HybridHQ",
+  "tuning_dataset": "all",
+  "tuning_seed": 42,
+  "total_trial_budget": 30,
+  "max_epochs": 80,
+  "patience": 10,
+  "objective": "validation_mse_standardized",
+  "feature_policy": "past_demand+weather+calendar",
+  "best_value": 0.05431797221641649,
+  "best_trial_number": 2,
+  "best_params": {
+    "dropout": 0.036611470453433645,
+    "batch_size": 128,
+    "learning_rate": 3.292759134423613e-05,
+    "weight_decay": 0.0002054051942538847,
+    "optimizer_name": "AdamW",
+    "num_layers": 1,
+    "hidden_dim": 1024,
+    "d_model": 128,
+    "nhead": 4
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "model": "TransformerFixed",
+  "tuning_dataset": "all",
+  "tuning_seed": 42,
+  "total_trial_budget": 30,
+  "max_epochs": 80,
+  "patience": 10,
+  "objective": "validation_mse_standardized",
+  "feature_policy": "past_demand+weather+calendar",
+  "best_value": 0.05735886661756423,
+  "best_trial_number": 22,
+  "best_params": {
+    "dropout": 0.018451962846158687,
+    "batch_size": 32,
+    "learning_rate": 2.742172327617993e-05,
+    "weight_decay": 7.495531188539501e-05,
+    "optimizer_name": "Adam",
+    "num_encoder_layers": 2,
+    "num_decoder_layers": 2,
+    "dim_feedforward": 1024,
+    "d_model": 256,
+    "nhead": 16
+  }
+}
